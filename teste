@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h4><span style="color: #3ecf40;"><a style="color: #3ecf40;" href="http://www.koha.pt">http://www.koha.pt</a></span></h4>
+<h1>Página de teste</h1>
+
+<h1>2-- BLOCO DE INFORMAÇÃO DESCRITIVA</h1>
+
+<h3>200 TÍTULO E MENÇÃO	DE RESPONSABILIDADE	(Obrigatório. Não repetível)</h3>
+
+<dl>
+  <dt><b>Indicador 1: Indicador de título significativo</b></dt>
+  <dd>0	Título não-significativo</dd>
+  <dd>1 Título significativo</dd> <br>
+  <dt><b>Indicador 2: branco (não definido)</b></dt>
+  <dt>Subcampos:</dt>  
+  <dd>$a Título próprio (Obrigatório. Repetível)</dd>
+  <dd>$b Indicação genérica do tipo de material (Repetível)</dd>
+  <dd>$c Título próprio de outro autor (Repetível)</dd>
+  <dd>$d Título paralelo (Repetível)</dd>
+  <dd>$e Informação de outro título (Repetível)</dd>
+  <dd>$f Primeira menção de responsabilidade (Repetível)</dd>
+  <dd>$g Outras menções de responsabilidade (Repetível)</dd>
+  <dd>$h Número de uma parte ou secção (Repetível)</dd>
+  <dd>$i Nome de uma parte ou secção (Repetível)</dd>
+  <dd>$v Indicação de volume (Não repetível)</dd>
+  <dd>$z Língua do título paralelo (Repetível)</dd>
+  <dd>$5 Instituição e exemplar a que o campo se aplica (Não repetível)</dd>
+</dl>
+
+</body>
+</html>
