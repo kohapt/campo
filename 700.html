@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8"
+http-equiv="content-type">
+<link rel="stylesheet" media="screen" href="estilo.css">
+<title>UNIMARC 700</title>
+</head>
+
+<body>
+
+<h3>700 Nome de autor- pessoa física (responsabilidade intelectual principal)</h3>
+
+<h4>Definição</h4>
+Este campo contém o nome da pessoa que é considerada como principal responsável pelo conteúdo intelectual de um documento. A sua forma depende das regras de catalogação em vigor. Este campo está relacionado com a menção de responsabilidade estabelecida no campo 200.
+<br><br>
+<h4>Indicadores</h4>
+<em>Indicador 1:</em> Não é utilizado e fica em branco<br>
+<em>Indicador 2:</em> Assinala a forma do cabeçalho.
+Usar o valor 0 se a entrada for feita pelo nome próprio ou de forma direta;
+Usar o valor 1 se a entrada for feita pelo apelido, seguido do nome.<br>
+<br>
+
+<h4>Subcampos</h4>
+$a Cabeçalho (parte do nome que será ordenada alfabeticamente) (Não Repetível)<br>
+$b Restante(s) parte(s) do nome quando no $a se colocar o apelido ou nome de família (Não Repetível)<br>
+$c Elementos de identificação ou distinção (ex.: epítetos, títulos nobiliários) (Repetível)<br>
+$d Numerais romanos (associados a papas, soberanos, dignidades eclesiásticas e epítetos) (Não Repetível)<br>
+$f Datas associadas ao autor (nascimento e/ou morte, período conhecido de atividade) (Não Repetível)<br>
+$g Desenvolvimento de iniciais de nome próprio (forma completa do nome quando a forma preferida usada no $b for composta por iniciais) (Não Repetível)<br>
+$3 Número de registo de entrada de autoridade (número de controlo atribuído ao cabeçalho no ficheiro de autoridades) (Não Repetível)<br>
+$4 Código de função (de acordo com o Apêndice C do Manual UNIMARC) (Repetível)<br>
+<br>
+<h4>Exemplos</h4>
+700 #1 $a Lawrence, $b D. H. $g David Herbert<br>
+700 #1 $a Madureira, $b Rodrigo, $c pseud.<br>
+700 #1 $a Santarém, $c 2º Visconde de, $f 1791-1856<br>
+700 #0 $a Afonso X, $c Rei de Castela e Leão, $c O Sábio, $f 1221-1284 <em>(neste caso não se poderá respeitar a numeração romana no $d por interferir com a correta ordenação da informação)</em>
+
+</body>
+</html>
