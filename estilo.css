@@ -1,6 +1,14 @@
+*/ Comentários sobre os estilos aplicados às ajudas UNIMARC
+Temos apenas os seguintes estilos
+Titulo - usando <h3>
+Seccoes - definição, indicadores, subcampos e exemplos usando <h4>
+Negrito - usando <strong>
+Comentários - os valores dos indicadores usando <em>
+*/
+
 html {
 	margin: 0;
-	padding: 10;
+	padding: 0;
 	}
 body { 
 	font: 75% georgia, sans-serif;
@@ -8,9 +16,34 @@ body {
 	line-height: 1.88889;
 	color: #555753; 
 	margin: 0; 
-	padding: 0;
+	padding: 10;
 	}
 p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	margin-top: 0; 
+	text-align: justify;
+	font-weight: bold;
+	font-size: 1.5em;
+	height: 24px;
+	}
+	
+h4 { 
+	margin-top: 0; 
+	text-align: justify;
+	font-weight: bold;
+	font-size: 1.2em;
+	height: 12px;
+	text-decoration: underline;
+	}
+
+strong { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+em { 
 	margin-top: 0; 
 	text-align: justify;
 	}
